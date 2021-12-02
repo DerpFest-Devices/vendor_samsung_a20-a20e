@@ -296,16 +296,3 @@ PRODUCT_COPY_FILES += \
      vendor/samsung/universal7885-common/proprietary/vendor/lib64/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudiocoreutils.so \
      vendor/samsung/universal7885-common/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so
 
-# hwc hal
-PRODUCT_COPY_FILES += \
-     vendor/samsung/universal7885-common/proprietary/vendor/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so \
-     vendor/samsung/universal7885-common/proprietary/vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
-     vendor/samsung/universal7885-common/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.configstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.configstore@1.0-service \
-     vendor/samsung/universal7885-common/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
-     vendor/samsung/universal7885-common/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.configstore@1.0-service.rc \
-     vendor/samsung/universal7885-common/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
-     
-# Soundtriiger: from d1
-PRODUCT_COPY_FILES += \
-     vendor/samsung/universal7885-common/proprietary/vendor/lib64/hw/sound_trigger.primary.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.exynos7884B.so \
-     vendor/samsung/universal7885-common/proprietary/vendor/lib/hw/sound_trigger.primary.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.exynos7884B.so 

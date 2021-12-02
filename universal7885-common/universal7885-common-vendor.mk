@@ -181,7 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/samsung/universal7885-common/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl.so \
+    vendor/samsung/universal7885-common/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/hw/gatekeeper.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos7884B.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/hw/gralloc.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos7884B.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib64/hw/memtrack.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos7884B.so \
